@@ -1,2 +1,28 @@
-# logo-aurora
-This the html &amp; css code of Aurora Logo
+# Logo of Aurora
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aurora Logo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+  <div class="flex items-center gap-2">
+    <a href="/" class="flex items-center gap-2 font-bold text-xl tracking-tight">
+      <div class="relative w-8 h-8 rounded-full bg-gradient-to-r from-purple-500 to-cyan-400 flex items-center justify-center">
+        <div class="absolute w-6 h-6 rounded-full bg-white flex items-center justify-center">
+          <div class="w-4 h-4 rounded-full bg-gradient-to-r from-purple-500 to-cyan-400 animate-pulse"></div>
+        </div>
+      </div>
+      <span class="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-cyan-400">Aurora</span>
+    </a>
+  </div>
+
+</body>
+</html>
+
+```
